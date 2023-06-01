@@ -8,8 +8,7 @@ pipeline {
         }
         stage ("Python Execution") {
             steps {
-                sh 'apt install python3 -y'
-                sh 'python3 simple-python-jenkins-usecase.py'
+                sh 'python simple-python-jenkins-usecase.py'
             }
         }
     }
