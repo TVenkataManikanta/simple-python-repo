@@ -8,7 +8,7 @@ pipeline {
         }
         stage ("Python Execution") {
             steps {
-                sh 'python simple-python-jenkins-usecase.py'
+                sh 'py simple-python-jenkins-usecase.py'
             }
         }
     }
