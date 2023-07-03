@@ -1,4 +1,4 @@
-name: mno/simple-python-jenkins-usecase
+name: MNO/simple-python-jenkins-usecase
 on:
   workflow_dispatch:
 jobs:
